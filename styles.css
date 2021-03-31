@@ -1,0 +1,65 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  line-height: 30px;
+  text-align: center;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+:root {
+  --clr-primary: #efe1b2;
+  --clr-primary-dark: #dcc252;
+  --clr-h-txt-dark: #546a3d;
+  --clr-h-txt: #86a949;
+  --clr-secondary: #b8c74a;
+  --clr-white-dark: #f1f1f1;
+  --clr-white: rgb(255, 255, 255);
+  --clr-black: rgb(34, 29, 29);
+  --ff-primary: "Open Sans", sans-serif;
+  --ff-secondary: "Roboto", cursive;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --radius-sm: 0.25rem;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navBar {
+	height: 10vh !important;
+}
+.container-fluid {
+	height: 90vh;
+}
+.section1, .section5, .section6{
+height: 30vh;
+}
+.section2, .section3, .section4{
+	height: 70vh;
+}
+.footer {
+	height: 20vh;
+}
+.section2, .section4, .section6 {
+background: var(--clr-white-dark);
+}
+.caption {
+	height: 10vh;
+}
+.navBar, .footer {
+	background: var(--clr-black);
+}
