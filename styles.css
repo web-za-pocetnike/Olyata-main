@@ -73,6 +73,19 @@ img {
 .footer {
   background: var(--clr-black);
 }
+/* sertifikati */.section-container1 {
+  background: var(--clr-white-dark);
+}
+.img-fluid1 {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img-fluid1:hover {
+ -webkit-filter: grayscale(0)!important;
+ filter: grayscale(0)!important;
+ transition: var(--transition);
+}
+/* end od sertifikati */
 
 /* skill cards */
 
