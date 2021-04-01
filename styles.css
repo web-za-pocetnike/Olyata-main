@@ -46,10 +46,11 @@ img {
 .container-fluid {
 	height: 90vh;
 }
-.section1, .section5, .section6{
+.section1, .section5, .section6 {
 height: 30vh;
 }
-.section2, .section3, .section4{
+
+.section2, .section3, .section4, .section5{
 	height: 70vh;
 }
 .footer {
@@ -64,3 +65,214 @@ background: var(--clr-white-dark);
 .navBar, .footer {
 	background: var(--clr-black);
 }
+
+/* skill cards */
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 1700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: -10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .skills {
+    display: none;
+  }
+  .skill-container {
+    width: 100%;
+  }
+  .card {
+    height: 380px;
+    width: 300px;
+  }
+  .carousel {
+    margin-bottom: -10px;
+    height: 550px;
+  }
+  .carousel-inner {
+    padding-top: 85px;
+  }
+  .card_circle2 {
+    background: url(../assets/img/pexels-polina-tankilevitch-4109910.jpg)
+    no-repeat center bottom;
+    background-color: var(--clr-primary-dark);
+    background-size: cover;
+    border-radius: 50%;
+    padding: 20rem;
+    height: 400px;
+    margin-bottom: 25px;
+    margin-left: -75px;
+    width: 300px;
+  }
+  .card .cta-container {
+    display: inline;
+    margin-top: 300px;
+  }
+  .cta {
+    color: var(--clr-h-txt-dark);
+    background-color: var(--clr-white-dark);
+  }
+  .card2 .h2 {
+    color: var(--clr-h-txt-dark);
+  }
+} 
+ 
+@media screen and (min-width: 1024px) {
+
+  #carousel2 {
+    display: none;
+  }
+  .skills-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1100px;
+  }
+  .skill-container {
+    padding-top: 1rem;
+  }
+  .card p {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: var(--ff-primary);
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 180px;
+    position: absolute;
+    text-align: center;
+    z-index: 200;
+    padding: 5px;
+  }
+  .skills {
+    height: 80vh;
+  }
+  .card {
+    height: 330px;
+    width: 200px;
+  }
+  .card:hover {
+    height: 400px;
+    width: 220px;
+  }
+  .card:hover .cta-container {
+    display: inline;
+    margin-top: 330px;
+  }
+  .card:hover .card_circle {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -200px;
+  }
+
+  .card:hover h2 {
+    color: var(--clr-h-txt-dark);
+    margin-top: 80px;
+    padding: 5px;
+  }
+  .card:hover h2 small {
+    color: #fff;
+  }
+
+  .card:hover p {
+    margin-top: 210px;
+  }
+  .card_circle {
+    /* background: url(../assets/img/pexels-polina-tankilevitch-4109910.jpg)
+        no-repeat center bottom; */
+    background-color: var(--clr-primary-dark);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -120px;
+    margin-top: -260px;
+    position: absolute;
+    width: 450px;
+  }
+  .cta {
+    color: var(--clr-primary-dark);
+    width: 80%;
+  }
+
+  .card h2 {
+    color: var(--clr-h-txt-dark);
+    font-family: var(--ff-primary);
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 200;
+  }
+}
+
+.transition {
+  transition: 0.3s cubic-bezier(0.3, 0, 0.3, 1.3);
+}
+
+.card {
+  background-color: #fff;
+  bottom: 0;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  right: 0;
+  top: 0;
+  border-radius: var(--radius);
+}
+
+.cta-container {
+  display: none;
+  margin-top: 400px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 200;
+}
+
+.cta {
+  -moz-border-radius: 2px;
+  -moz-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  -webkit-border-radius: 2px;
+  -webkit-transition: 0.2s ease-out;
+  background-clip: padding-box;
+  border: 2px solid var(--clr-h-txt-dark);
+  border-radius: var(--radius);
+  display: inline-block;
+  font-family: var(--ff-primary);
+  font-size: 16px;
+  font-weight: 400;
+  height: 36px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  padding: 0 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s ease-out;
+  margin-top: 25px;
+}
+
+.cta:hover {
+  background-color: var(--clr-primary-dark);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: var(--clr-h-txt-dark);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* end of skill cards */
