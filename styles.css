@@ -41,29 +41,37 @@ img {
 }
 
 .navBar {
-	height: 10vh !important;
+  height: 10vh !important;
 }
 .container-fluid {
-	height: 90vh;
+  height: 90vh;
 }
-.section1, .section5, .section6 {
-height: 30vh;
+.section1,
+.section5,
+.section6 {
+  height: 30vh;
 }
 
-.section2, .section3, .section4, .section5{
-	height: 70vh;
+.section2,
+.section3,
+.section4,
+.section5 {
+  height: 70vh;
 }
 .footer {
-	height: 20vh;
+  height: 20vh;
 }
-.section2, .section4, .section6 {
-background: var(--clr-white-dark);
+.section2,
+.section4,
+.section6 {
+  background: var(--clr-white-dark);
 }
 .caption {
-	height: 10vh;
+  height: 10vh;
 }
-.navBar, .footer {
-	background: var(--clr-black);
+.navBar,
+.footer {
+  background: var(--clr-black);
 }
 
 /* skill cards */
@@ -100,7 +108,7 @@ background: var(--clr-white-dark);
   }
   .card_circle2 {
     background: url(../assets/img/pexels-polina-tankilevitch-4109910.jpg)
-    no-repeat center bottom;
+      no-repeat center bottom;
     background-color: var(--clr-primary-dark);
     background-size: cover;
     border-radius: 50%;
@@ -121,10 +129,9 @@ background: var(--clr-white-dark);
   .card2 .h2 {
     color: var(--clr-h-txt-dark);
   }
-} 
- 
-@media screen and (min-width: 1024px) {
+}
 
+@media screen and (min-width: 1024px) {
   #carousel2 {
     display: none;
   }
@@ -276,3 +283,18 @@ background: var(--clr-white-dark);
 }
 
 /* end of skill cards */
+
+/***** Section3 *****/
+.section3 {
+  height: 90vh;
+}
+.Organic-Olive-Oil-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  font-size: 28px;
+  color: #9f9123;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 22px;
+}
