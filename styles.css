@@ -52,11 +52,12 @@ img {
 }
 
 .section1,
-.section5,
-.section6 {
+.section5 {
   height: 30vh;
 }
-
+.section6 {
+  height: 100vh;
+}
 .section2,
 .section3,
 .section4,
@@ -627,3 +628,152 @@ img {
 /*=========================================*/
 /*  END sekcija 4 infused Olive Oil style */
 /*=========================================*/
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #666;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.contact .info-box {
+  color: #444;
+  border-radius: var(--radius);
+  background-color: #fff;
+  text-align: center;
+  /* box-shadow: 0 0 10px var(--clr-h-txt); */
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.contact .info-box i {
+  font-size: 32px;
+  color: var(--clr-h-txt);
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted var(--clr-h-txt);
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #666;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contact .php-email-form {
+  /* box-shadow: 0 0 10px var(--clr-h-txt); */
+  border-radius: var(--radius);
+  padding: 30px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: var(--clr-h-txt);
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid var(--clr-h-txt-dark);
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: var(--radius);
+  box-shadow: none;
+  font-size: 14px;
+  color: var(--clr-h-txt-dark);
+}
+
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
+  background-color: var(--clr-h-txt-dark);
+}
+
+.contact .php-email-form input {
+  padding: 20px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: var(--clr-h-txt);
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: var(--clr-h-txt-dark);
+}
+.olyata-border-focus .form-control:focus {
+  border: 1px solid var(--clr-h-txt);
+  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, 0.25);
+}
+/*--------------------------------------------------------------
+# End Of Contact Us
+--------------------------------------------------------------*/
