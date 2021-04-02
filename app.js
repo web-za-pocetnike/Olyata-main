@@ -101,21 +101,3 @@ $(window).scroll(function () {
 		onTop.fadeOut(500)
 	}
 })
-// nav-bar
-
-
-  $('#toggle').click(function () {
-            $(this).toggleClass('active');
-            $('#overlay').toggleClass('open');
-        });
- 
-        $(document).ready(function () {
-            $('#toggle').click(function () {
-                $('nav').toggleClass('active')
-            })
-            $('.navlink').click(function () {
-                $("#toggle").removeClass('active');
-                $("#overlay").toggleClass('open').show();
-            })
-        })
-// end of nav bar
