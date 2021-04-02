@@ -507,7 +507,36 @@ img {
 .section3 {
   height: 100%;
 }
+/* Frying olive oil */
 
+.frying-olive-box {
+  margin-top: 100px;
+}
+
+.frying-olive-box-text {
+  padding-right: 30px;
+  text-align: left;
+}
+
+.frying-olive-box-text h2 {
+  margin-top: 0;
+}
+
+.frying-olive-box-text .medium-paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.frying-olive-box-text a:hover,
+.frying-olive-box-text a:focus {
+  border: 0;
+}
+
+.frying-olive-box-img img {
+  border-radius: 4px;
+}
+
+/* End of frying olive oil */
 .Organic-Olive-Oil-icon {
   width: 60px;
   height: 60px;
