@@ -69,6 +69,9 @@ img {
   height: 20vh;
 }
 
+.section0 {
+  min-height: 55rem;
+}
 .section2,
 .section4,
 .section6 {
@@ -86,10 +89,8 @@ img {
 /* Arrow */
 .demoarrow {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 1rem;
-  margin: 0 auto;
+  top: 90%;
+  left: 50%;
   transform: rotate(-90deg);
   animation: hero-arrow 1.5s infinite;
 }
@@ -304,7 +305,7 @@ img {
 /* sertifikati */
 
 .section-container1 {
-  background: var(--clr-white-dark);
+  background: var(--clr-white);
 }
 
 .img-fluid1 {
