@@ -334,139 +334,9 @@ img {
   padding-bottom: 50px;
   margin-bottom: -10px;
 }
-
-@media screen and (max-width: 1024px) {
-  .skills {
-    display: none;
-  }
-  .skill-container {
-    width: 100%;
-  }
-  .card {
-    height: 380px;
-    width: 300px;
-  }
-  .carousel {
-    margin-bottom: -10px;
-    height: 550px;
-  }
-  .carousel-inner {
-    padding-top: 85px;
-  }
-  .card_circle2 {
-    background: url(../assets/img/pexels-polina-tankilevitch-4109910.jpg)
-      no-repeat center bottom;
-    background-color: var(--clr-primary-dark);
-    background-size: cover;
-    border-radius: 50%;
-    padding: 20rem;
-    height: 400px;
-    margin-bottom: 25px;
-    margin-left: -75px;
-    width: 300px;
-  }
-  .card .cta-container {
-    display: inline;
-    margin-top: 300px;
-  }
-  .cta {
-    color: var(--clr-h-txt-dark);
-    background-color: var(--clr-white-dark);
-  }
-  .card2 .h2 {
-    color: var(--clr-h-txt-dark);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #carousel2 {
-    display: none;
-  }
-  .skills-container {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 1100px;
-  }
-  .skill-container {
-    padding-top: 1rem;
-  }
-  .card p {
-    color: rgba(0, 0, 0, 0.6);
-    font-family: var(--ff-primary);
-    font-size: 100%;
-    font-weight: normal;
-    margin-top: 180px;
-    position: absolute;
-    text-align: center;
-    z-index: 200;
-    padding: 5px;
-  }
-  .skills {
-    height: 80vh;
-  }
-  .card {
-    height: 330px;
-    width: 200px;
-  }
-  .card:hover {
-    height: 400px;
-    width: 220px;
-  }
-  .card:hover .cta-container {
-    display: inline;
-    margin-top: 330px;
-  }
-  .card:hover .card_circle {
-    background-size: cover;
-    border-radius: 0;
-    margin-top: -200px;
-  }
-  .card:hover h2 {
-    color: var(--clr-h-txt-dark);
-    margin-top: 80px;
-    padding: 5px;
-  }
-  .card:hover h2 small {
-    color: #fff;
-  }
-  .card:hover p {
-    margin-top: 210px;
-  }
-  .card_circle {
-    /* background: url(../assets/img/pexels-polina-tankilevitch-4109910.jpg)
-        no-repeat center bottom; */
-    background-color: var(--clr-primary-dark);
-    background-size: cover;
-    border-radius: 50%;
-    height: 400px;
-    margin-left: -120px;
-    margin-top: -260px;
-    position: absolute;
-    width: 450px;
-  }
-  .cta {
-    color: var(--clr-primary-dark);
-    width: 80%;
-  }
-  .card h2 {
-    color: var(--clr-h-txt-dark);
-    font-family: var(--ff-primary);
-    font-size: 24px;
-    font-weight: 200;
-    margin-top: 150px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    z-index: 200;
-  }
-}
-
 .transition {
   transition: 0.3s cubic-bezier(0.3, 0, 0.3, 1.3);
 }
-
 .card {
   background-color: #fff;
   bottom: 0;
@@ -481,7 +351,6 @@ img {
   top: 0;
   border-radius: var(--radius);
 }
-
 .cta-container {
   display: none;
   margin-top: 400px;
@@ -490,7 +359,6 @@ img {
   width: 100%;
   z-index: 200;
 }
-
 .cta {
   -moz-border-radius: 2px;
   -moz-transition: 0.2s ease-out;
@@ -515,7 +383,6 @@ img {
   transition: 0.2s ease-out;
   margin-top: 25px;
 }
-
 .cta:hover {
   background-color: var(--clr-primary-dark);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -525,8 +392,155 @@ img {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#carousel2 {
+  display: none;
+}
+.skills {
+  height: 80vh;
+}
+.card {
+  height: 330px;
+  width: 200px;
+}
+.card:hover {
+  height: 400px;
+  width: 220px;
+}
+.card h2 {
+  color: var(--clr-h-txt-dark);
+  font-family: var(--ff-primary);
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 165px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 200;
+}
+.card p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--ff-primary);
+  font-size: 100%;
+  font-weight: normal;
+  margin-top: 200px;
+  position: absolute;
+  text-align: center;
+  z-index: 200;
+  padding: 5px;
+}
+.skills-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 1100px;
+}
+.skill-container {
+  padding-top: 1rem;
+}
+ 
+.card:hover .cta-container {
+  display: inline;
+  margin-top: 320px;
+}
+.card:hover .card_circle {
+  background-size: cover;
+  border-radius: 0;
+  margin-top: -200px;
+}
+.card:hover h2 {
+  color: var(--clr-h-txt-dark);
+  margin-top: 80px;
+  padding: 5px;
+}
+.card:hover h2 small {
+  color: #fff;
+}
+.card:hover p {
+  margin-top: 210px;
+}
+.card_circle {
+  /* background: url(../assets/img/pexels-polina-tankilevitch-4109910.jpg)
+        no-repeat center bottom; */
+  background-color: var(--clr-primary-dark);
+  background-size: cover;
+  border-radius: 50%;
+  height: 400px;
+  margin-left: -125px;
+  margin-top: -260px;
+  position: absolute;
+  width: 450px;
+}
+.cta {
+  color: var(--clr-primary-dark);
+  width: 80%;
+}
+@media screen and (max-width: 1024px) {
+   #carousel2 {
+    display: block;
+  }
+  .skills {
+    display: none;
+  }
+  .skill-container {
+    width: 100%;
+  }
+  .card {
+    height: 380px;
+    width: 300px;
+  }
+  .carousel {
+    margin-bottom: -10px;
+    height: 550px;
+  }
+  .carousel-inner {
+    padding-top: 80px;
+  }
+  .card_circle2 {
+    background: url(../assets/img/pexels-polina-tankilevitch-4109910.jpg)
+      no-repeat center bottom;
+    background-color: var(--clr-primary-dark);
+    background-size: cover;
+    border-radius: 50%;
+    padding: 20rem;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-top: 150px;
+    margin-left: -30px;
+    width: 300px;
+  }
+  .card .cta-container {
+    display: inline;
+    margin-top: 300px;
+  }
+  .cta {
+    color: var(--clr-h-txt-dark);
+    background-color: var(--clr-white-dark);
+  }
+  .card h2 {
+    color: var(--clr-h-txt-dark);
+    margin-top: 20px;
+  }
+  .card p {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .card {
+    height: 350px;
+    width: 260px;
+  }
+  .card:hover {
+    height: 400px;
+    width: 260px;
+  }
+  .card_circle {
+    margin-left: -95px;
+  }
+}
 
 /* end of skill cards */
+
 
 /***** Section3 *****/
 
