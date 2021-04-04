@@ -42,27 +42,35 @@ html {
 img {
   max-width: 100%;
 }
-
+.navRow{
+  height: 10vh !important;
+}
+.navContainer{
+  height: 10vh !important;
+}
+.videoRow{
+  height: 90vh !important;
+}
 .navBar {
   height: 10vh !important;
 }
 
 .container-fluid {
-  height: 90vh;
+ max-height: 90vh;
 }
 
 .section1,
 .section5 {
-  height: 30vh;
+  height: fit-content;
 }
 .section6 {
-  height: 100vh;
+  height: fit-content;
 }
 .section2,
 .section3,
 .section4,
 .section5 {
-  height: 70vh;
+  height: fit-content;
 }
 
 .footer {
@@ -71,6 +79,7 @@ img {
 
 .section0 {
   min-height: 55rem;
+  height: 90vh;
 }
 .section2,
 .section4,
@@ -329,7 +338,7 @@ img {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
-  height: 1700px;
+  height: fit-content !important;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: -10px;
@@ -395,9 +404,9 @@ img {
 #carousel2 {
   display: none;
 }
-.skills {
+/* .skills {
   height: 80vh;
-}
+} */
 .card {
   height: 330px;
   width: 200px;
@@ -433,7 +442,7 @@ img {
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 1100px;
+  height: fit-content;
 }
 .skill-container {
   padding-top: 1rem;
@@ -589,7 +598,10 @@ img {
 }
 
 /* video */
-
+.video{
+  max-height: 90vh;
+  object-fit: fill;
+}
 .videoimg {
   transform: translate(0, -100%);
   opacity: 0.7;

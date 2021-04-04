@@ -25,16 +25,16 @@
 <body>
     <!--  svakom drugom fluidu dati pozadinu dok je pozadina body-ja bela -->
     <!--  navbar-->
-    <div class="container-fluid p-0 m-0 navBar fixed-top">
-        <div class="row p-0 m-0">
+    <div class="container-fluid p-0 m-0 navContainer">
+        <div class="row p-0 m-0 navBar fixed-top">
             <div class="container p-0 m-0 mx-auto">
-                <div class="row p-0 m-0">
-                    <div class="col-3 logo-cont p-0 m-0">
+                <div class="row p-0 m-0 navRow">
+                    <div class="col logo-cont p-0 m-0 mr-auto">
                         <a href="./index.html"><img class="logo" src="./assets/Olyatanew43-removebg-preview.png"
                                 alt="logo"></a>
                     </div>
-                    <div class="col-6 p-0 m-0"></div>
-                    <div class="col-3 p-0 m-0">
+                    
+                    <div class="col p-0 m-0 ml-auto">
                         <div class="button_container" id="toggle"><span class="top"></span><span
                                 class="middle"></span><span class="bottom"></span></div>
                         <div class="overlay" id="overlay">
@@ -84,7 +84,7 @@
     <!-- end of navbar -->
     <!--  ovde video i strelica -->
     <div class="container-fluid p-0 m-0 section0">
-        <div class="row w-100 p-0 m-0 g-0">
+        <div class="row p-0 m-0 g-0 videoRow">
 
             <video class="video" autoplay muted loop>
                 <source src="./assets/video.mp4" type="video/mp4">
@@ -94,21 +94,19 @@
     </div>
     <!-- end of video -->
     <!-- start of arrow down -->
-    <!-- <section id="arrowdown" class="demoarrow">
-                <a href="#first_arow"><span></span></a>
-            </section> -->
+    
     <div id="arrowdown" class="demoarrow">
-        <a href="#first_arow">
+        <a href="#first_arow" class="py-3">
             <svg width="30" height="70" viewBox="0 0 13 47">
                 <path id="Vector 1" d="M13 0L0 24L13 47L5.5 24L13 0Z" />
             </svg></a>
     </div>
     <!-- end of arrow down -->
     <!-- sekcija 1 -- sertifikati -->
-    <div class="container-fluid section-container1 section1">
+    <div class="container-fluid section-container1 section1 p-0 m-0">
         <div class="p-3 mb-2 text-white">
             <div class="row photos mt-4">
-                <div class="d-flex justify-content-around" data-aos="fade-up">
+                <div class="d-flex justify-content-around p-0 m-0" data-aos="fade-up">
                     <div class="col-4 mr-6 me-4 shadow-2" style="height: 10rem;">
                         <img class="img-fluid1" src="./assets/slika1.jpg" alt="sertifikat1">
                     </div>
