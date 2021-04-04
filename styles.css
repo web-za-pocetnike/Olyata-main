@@ -54,7 +54,9 @@ img {
 .navBar {
   height: 10vh !important;
 }
-
+.bg-custom{
+background-color: var(--clr-primary-dark);
+}
 .container-fluid {
  max-height: 90vh;
 }
@@ -698,11 +700,11 @@ position: absolute;
   border-radius: var(--radius);
   box-shadow: 5px 5px 10px #546a3d;
 }
-.section-title {
+/* .section-title {
   color: var(--clr-h-txt-dark);
   margin-top: 1rem;
   font-weight: 600;
-}
+} */
 .product-title {
   color: var(--clr-h-txt-dark);
 }
@@ -736,13 +738,13 @@ position: absolute;
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+/* .section-title h2 {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #666;
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
