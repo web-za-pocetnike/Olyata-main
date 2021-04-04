@@ -55,7 +55,8 @@ img {
   height: 10vh !important;
 }
 .bg-custom{
-background-color: var(--clr-primary-dark);
+background-color: var(--clr-h-txt);
+color: white;
 }
 .container-fluid {
  max-height: 90vh;
